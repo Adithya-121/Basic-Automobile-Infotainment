@@ -1,0 +1,295 @@
+/* Body */
+body {
+	background-color:#101010;
+	font-family: 'Raleway';
+	font-weight:lighter;
+}
+
+.app-page {
+	display:none;
+	margin-top:59px;
+}
+
+.info-top {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:60px;
+	border-bottom:1px solid #606060;
+	color:#ffffff;
+}
+
+#home-btn {
+	color:#ffffff;
+	text-decoration:none;
+	line-height:59px;
+	padding:0 15px;
+}
+#home-btn:hover {
+	background-color:#202020;
+}
+
+.info-top .pull-right span.fa {
+	line-height:59px;
+	padding:0 25px;
+}
+
+.info-top .pull-right span.info-text {
+	font-size:3em;
+	padding:0 15px 0 20px;
+	line-height:59px;
+}
+
+.info-text.info-time {
+    position: relative;
+    top: -4px;
+}
+
+/*
+ *
+ * HOME PAGE
+ *
+ */
+.app-drawer {
+	position:fixed;
+	z-index:-1;
+	bottom:0;
+	left:0;
+	right:0;
+	height:400px;
+	border-top:1px solid #505050;
+	background: -webkit-linear-gradient(#202020, #303030); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#202020, #303030); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#202020, #303030); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#202020, #303030); /* Standard syntax */
+}
+
+.card-ui {
+	background: -webkit-linear-gradient(#000000, #202020); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000000, #202020); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000000, #202020); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000000, #202020); /* Standard syntax */
+	padding:40px;
+	border:1px solid #606060;
+	border-radius:4px;
+	box-shadow:0 10px 30px #000000;
+	position:relative;
+	color:#ffffff;
+	height:500px;
+	bottom:200px;
+	transition-duration:0.3s;
+}
+.card-ui:hover {
+	background: -webkit-linear-gradient(#3a74b6, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3a74b6, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3a74b6, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3a74b6, #101010); /* Standard syntax */
+    bottom:210px;
+    box-shadow:0 10px 80px #000000;
+}
+
+.card-ui .notification-badge {
+	float:right;
+	font-size:2em;
+}
+
+.card-ui > .fa {
+	font-size:11em;
+	position:absolute;
+	top:120px;
+	left:40px;
+	right:40px;
+	text-align:center;
+}
+
+.card-ui-title {
+	position:absolute;
+	bottom:40px;
+	left:40px;
+	right:40px;
+	text-align:center;
+	font-size:30px;
+	font-weight:lighter;
+	color: #edf2f4;
+}
+
+
+/*
+ *
+ * ENTERTAINMENT PAGE
+ *
+ */
+.source-row, .song-info-row, .play-controls-row {
+	padding:20px;
+	margin-left:0;
+	margin-right:0;
+}
+
+.source-btn-body {
+	padding:10px 20px;
+	border-radius:4px;
+	border:1px solid #606060;
+	background: -webkit-linear-gradient(#000000, #202020); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000000, #202020); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000000, #202020); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000000, #202020); /* Standard syntax */
+    color:#ffffff;
+}
+.source-btn-body:hover, .source-btn-body.active {
+	background: -webkit-linear-gradient(#3a74b6, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3a74b6, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3a74b6, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3a74b6, #101010); /* Standard syntax */
+}
+
+.source-btn-body .source-btn-text {
+	font-size:2em;
+	float:right;
+	line-height:55px;
+}
+
+.song-info-span {
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #909090;
+}
+
+.song-info-span-header-radio {
+	font-size:50px;
+	font-weight:bold;
+}
+
+.song-info-span-header {
+	font-size: 40px;
+	font-weight:bold;
+}
+
+.song-info-album-cover {
+    border-radius: 4px;
+    border: 1px solid #606060;
+    padding: 100px;
+    text-align: center;
+    color:#ffffff;
+    background: -webkit-linear-gradient(#202020, #303030); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#202020, #303030); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#202020, #303030); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#202020, #303030); /* Standard syntax */
+}
+
+.play-controls-row {
+	display:none;
+}
+
+.play-controls-btn {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #606060;
+    border-radius: 4px;
+    color: #ffffff;
+    background: -webkit-linear-gradient(#000000, #202020);
+    background: -o-linear-gradient(#000000, #202020);
+    background: -moz-linear-gradient(#000000, #202020);
+    background: linear-gradient(#000000, #202020);
+}
+.play-controls-btn:hover, .play-controls-btn.active {
+	background: -webkit-linear-gradient(#3a74b6, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3a74b6, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3a74b6, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3a74b6, #101010); /* Standard syntax */
+}
+
+
+/*
+ *
+ * NAVIGATION PAGE
+ *
+ */
+.navigation-page {
+	position:absolute;
+	top:0;
+	bottom:3px;
+	left:0;
+	right:0;
+}
+
+
+/*
+ *
+ * NOTIFICATIONS PAGE
+ *
+ */
+.row.notifications-row {
+    margin: 0;
+}
+
+.notification-list-item, .notification-list-item-empty {
+    padding: 15px 20px;
+    border-bottom: 1px solid #606060;
+    color: #ffffff;
+    font-size: 2em;
+}
+.notification-list-item:hover {
+	background: -webkit-linear-gradient(#3a74b6, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3a74b6, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3a74b6, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3a74b6, #101010); /* Standard syntax */
+}
+
+.notification-list-item-empty {
+	display:none;
+}
+
+.notification-list-item:first-child {
+    border-top: 1px solid #606060;
+}
+
+.notification-list-item .fa {
+    padding-right: 20px;
+}
+
+.notification-clear-btn {
+	position:relative;
+	top:-2px;
+}
+
+
+/*
+ *
+ * SETTINGS PAGE 
+ *
+ */
+.settings-row {
+	padding:0 0 40px 0;
+}
+
+.settings-section {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.settings-section-header {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.settings-section-list-btn {
+    padding: 20px;
+    border-radius:4px;
+    border: 1px solid #606060;
+    text-align:center;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#000000, #202020);
+    background: -o-linear-gradient(#000000, #202020);
+    background: -moz-linear-gradient(#000000, #202020);
+    background: linear-gradient(#000000, #202020);
+}
+.settings-section-list-btn:hover, .settings-section-list-btn.active {
+	background: -webkit-linear-gradient(#3a74b6, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3a74b6, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3a74b6, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3a74b6, #101010); /* Standard syntax */
+}
